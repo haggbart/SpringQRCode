@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>Very funny</h1>
+<p>from bytearray:</p>
+<img th:src="@{/funnybanana}" alt="funnybanana">
+
+<p>from static file:</p>
+<img th:src="@{funnybanana.png}">
+</body>
+</html>
